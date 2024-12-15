@@ -1,0 +1,16 @@
+ [
+  {
+      "nameList": "Calculos",
+      "Cursos":["Calculo Diferencial","Calculo Integral", "Calculo Vectorial"]
+  },
+  {
+      "nameList": "Fisica Basica",
+      "Cursos":["Calculo Diferencial","Calculo Integral", "Calculo Vectorial"]
+  },
+  {
+    "nameList": "Fisica Avanzada",
+    "Cursos":["Calculo Diferencial","Calculo Integral", "Calculo Vectorial"]
+  }
+]
+
+  

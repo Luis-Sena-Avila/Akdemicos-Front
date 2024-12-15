@@ -37,8 +37,8 @@ const Login = () => {
             {Registrarse ? (
             <div className='conten-form-register'>
             <form className='formulario-register' onSubmit={handleSubmit(submit)}>
-                    <div onClick={handleRegister} className='atras-register'>
-                        <i className='bx bx-arrow-back'></i>
+                    <div className='atras-register'>
+                        <i onClick={handleRegister} className='bx bx-arrow-back'></i>
                     </div>
                 <div className='logo_form'>
                     <img src="/public/Ak.svg" alt="Logo" />

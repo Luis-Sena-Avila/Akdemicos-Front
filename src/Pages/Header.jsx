@@ -88,7 +88,8 @@ const Header = () => {
             ):(<ul className='menu-horizontal'>
               <li><a href="">Proyectos</a></li>
               <li>
-                <a className='trian-curso' href=""> <span className='ali'>Cursos  <img src="/public/Lista.svg" alt="Lista" /></span></a>
+                <Link to={"/cursos"} ><span className='ali'>Cursos  <img src="/Lista.svg" alt="Lista" /></span></Link>
+                {/* <a className='trian-curso' href=""> <span className='ali'>Cursos  <img src="/Lista.svg" alt="Lista" /></span></a> */}
                 <ul className='horizontal'>
                   <li>
                     <ul className='vertical'>

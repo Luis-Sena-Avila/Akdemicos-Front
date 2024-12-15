@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerPrincipal{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.ContainerCursosCard{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 20px;
+}
+.containerCursos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.targetaCurso{
+    background-color: blue;
+    border: 1px;
+    border-color: white;
+}

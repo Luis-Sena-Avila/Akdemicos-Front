@@ -2,10 +2,10 @@ import React from 'react'
 import { Latex } from 'react-latex';
 
 const Home = () => {
-  const fraccion=`$$a^2 +2$$`
+  const fraccion=`$$\int 2$$`
   return (
     <div>
-      Hola
+        {fraccion}
     </div>
   )
 }
