@@ -5,7 +5,7 @@ const CursoCard = ({Curso}) => {
     
       return (
         <div className="targetaCurso">
-             <div>Imagen</div>
+             <div className="imagCurso">Imagen</div>
              <div>{Curso}</div>
         </div>
       );

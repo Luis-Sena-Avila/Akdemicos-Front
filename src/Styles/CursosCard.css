@@ -5,23 +5,41 @@
 }
 .containerPrincipal{
     padding: 50px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: 100wh;
+    background-color: aliceblue;
 }
 .ContainerCursosCard{
     display: flex;
     flex-direction: column;
     background-color: orange;
-    padding: 20px;
+    gap: 20px;
 }
 .containerCursos{
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    gap: 15px;
+}
+
+.nombre_lista_cursos{
+    font-size: 2.5rem;
+    text-align: left;
 }
 
 .targetaCurso{
     background-color: blue;
-    border: 1px;
-    border-color: white;
+    min-height: 250px;
+    min-width: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imagCurso{
+    height: 40%;
+    background-color: purple;
 }
