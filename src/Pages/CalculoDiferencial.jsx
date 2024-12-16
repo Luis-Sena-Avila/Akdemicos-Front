@@ -6,5 +6,4 @@ const CalculoDiferencial = () => {
       </div>
     )
   }
-  
   export default CalculoDiferencial

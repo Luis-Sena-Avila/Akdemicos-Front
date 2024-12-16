@@ -1,12 +1,20 @@
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import "../Styles/CursosCard.css"
 
 const CursoCard = ({Curso}) => {
-    console.log(Curso);
+  const navigate=useNavigate()
+  const handleCurso=(data)=>{
+    const path=data.target.parentElement.id.replace(/ /g,"")
+    console.log(data.target.parentElement.id.replace(/ /g,"")) 
+    navigate(`/cursos/${path}`)
+  } 
+
+  
     
-      return (
-        <div className="targetaCurso">
+    return (
+        <div data-key={5} className="targetaCurso" onClick={handleCurso} id={Curso}>
              <div className="imagCurso">Imagen</div>
-             <div>{Curso}</div>
+             <div className="nombreCurso">{Curso}</div>
         </div>
       );
     };

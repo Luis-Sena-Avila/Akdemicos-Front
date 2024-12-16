@@ -4,6 +4,7 @@ import Header from './Pages/Header'
 import Login from './Pages/Login'
 import Home from './Pages/Home';
 import Cursos from './Pages/Cursos';
+import CalculoDiferencial from './Pages/CalculoDiferencial';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>} />
           <Route path='/cursos' element={<Cursos/>}/>
-          
+          <Route path='/cursos/CalculoDiferencial' element={<CalculoDiferencial/>}/>
         </Routes>
     </HashRouter>
   );    

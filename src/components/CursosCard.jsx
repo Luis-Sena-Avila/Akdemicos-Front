@@ -1,7 +1,8 @@
 import CursoCard from "./cursoCard";
 import "../Styles/CursosCard.css"
 
-const CursosCard = ({seccionCurso}) => {  
+const CursosCard = ({seccionCurso}) => { 
+  
     return (
       <div className="ContainerCursosCard">
            <div className="nombre_lista_cursos">{seccionCurso.nameList}</div> 
