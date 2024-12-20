@@ -1,0 +1,40 @@
+.ContainerPrincipal{
+    background-color: aliceblue;
+    height: 100vh;
+    width: auto;
+    margin: 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+}
+
+.indice{
+    background-color: aqua;
+}
+
+.contenido{
+    background-color: rebeccapurple;
+    padding: 1rem;
+}
+
+.titlePrincipal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 1rem;
+}
+.capitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 0 1rem 0;
+}
+
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-self: center;
+}
+
+.imagen{
+    display: inline-block;
+    vertical-align: middle;
+}
