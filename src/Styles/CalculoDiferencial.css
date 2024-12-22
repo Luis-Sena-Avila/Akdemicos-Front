@@ -16,6 +16,11 @@ p{
 
 .indice{
     background-color: aqua;
+    padding: 1rem;
+}
+
+.indice ul li {
+  list-style: none;
 }
 
 .contenido{
@@ -31,21 +36,31 @@ p{
 }
 .capitulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     padding: 0 0 1rem 0;
+}
+.seccion{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 2rem 0 1rem 0;
 }
 
 .texto{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     align-self: center;
-    padding: 0px;
+    padding: 0  0 1rem 0;
 }
 
 .imagen{
     vertical-align: middle;
     color: blue;
+}
+
+.fconstante{
+  padding: 0.5rem 0;
 }
 
 .colorSubtitle{
@@ -96,8 +111,8 @@ p{
 
   .imagenCenter{
     padding: 0.5rem 0;
-    width: 35%;
-    min-width: 230px;
+    max-width: 500px;
+    min-width: 250px;
   }
 
   .containerImCreciente{
@@ -105,7 +120,13 @@ p{
     padding: 0.5rem 0;
   }
   .containerImCreciente img{
-    width: 60%;
-    min-width: 300px;
+    max-width: 500px;
+    min-width: 250px;
   }
-  
+  .item{
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    display: inline-block;
+    border: solid 3px white;
+  }

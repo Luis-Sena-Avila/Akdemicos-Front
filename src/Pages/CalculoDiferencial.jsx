@@ -12,6 +12,9 @@ const CalculoDiferencial = () => {
       <div className='ContainerPrincipal'>
           <div className="indice">
             <h3>Contenido</h3>
+            <ul>
+              <li>Funciones <ul><li>Funciones Básicas</li></ul></li>
+            </ul>
           </div>
 
           <div className="contenido">
@@ -33,18 +36,30 @@ const CalculoDiferencial = () => {
         <Definiciones definicion={<p className="texto"><span className="colorSubtitle">Función par e impar</span> <br /><b>Función par</b>: Si una función cumple que <img className="imagen" src="/public/par.svg" alt="fpar" /> para todo <img className="imagen" src="/public/x.svg" alt="x" /> en su dominio, se dice que es Par. La grafica de una función par
         es simétrica respecto al eje y. <br/><b>Función Impar</b>: i una función cumple que <img className="imagen" src="/public/impar.svg" alt="fimpar"/> para todo <img className="imagen" src="/public/x.svg" alt="x"/> en su dominio, se dice que es Impar. La gráfica de una función impar es simétrica respecto a el origen.</p>}/>
         
+        {/* ------------------------------------------seccion funciones basicas-------------------------------------------------------------- */}
 
+        <h2 className="seccion">1.1 Funciones Básicas</h2>
+
+        <p className="texto">Las funciones polinomicas tienen la forma <div className="containerImCreciente"><img src="/public/polinomica.svg" alt="polinomica"/></div> donde n ≥ 0, los a<sub>n</sub> son llamados coeficientes del polinomio y n el grado del poliniomio. El dominio de toda función polinómica es 
+         <b> ℝ</b>. A continuación se estudiaran las principales funciones polinómicas.</p>
         
-        
+        <p className="texto"><div className="item"></div><span className="colorSubtitle">Función Constante</span> : La funcíon constante es una función polinomica de grado 0 y su grafica es una recta horizontal <div className="fconstante"><img src="/public/fconstante.svg" alt="constante" /></div></p>
     
+        <p className="texto"><div className="item"></div><span className="colorSubtitle">Función Lineal</span> : La funcíon lineal es una función polinómica de 1<sup>er</sup> grado y su grafica es una linea recta. La ecuación en la forma
+        pendiente-intercepto de una función lineal es <div className="containerImCreciente"><img src="/public/flineal.svg" alt="" /></div>Donde m es la pendiente de la recta y mide el grado de inclinación de ésta, y b es el intercepto de la recta con el eje y. Si m &lt; 0 la recta es decreciente, si m  &gt; 0 la recta es creciente y si m es indefinida la reccta es vertical (Una recta vertical no es una función de x).
+        <br /> <br />Puesto que por dos puntos diferentes puede pasar una y solo una recta, entonces, dados dos puntos <img className="imagen" src="/public/puntosP.svg" alt="puntos" />, la
+pendiente de de la recta que pasa por dichos puntos viene dada por:<div className="containerImCreciente"><img src="/public/pendiente.svg" alt="pendiente"/></div> <br />Si x<sub>1</sub> = x<sub>2</sub> la pendiente es indefinida y la recta es vertical. <br />La ecuación en la forma punto-pendiente de esta recta se escribe como <div><img src="/public/flineal_1.svg" alt="" /></div>
+ </p>
 
    
+        <p className="texto"><div className="item"></div><span className="colorSubtitle">Función Cuadrática</span> : La función cuadrática es una funcion polinomica de 2<sup>do</sup> grado y tiene la forma <div className="containerImCreciente"><img src="/public/cuadratica.svg" alt="" /></div>
+        La grafica de una función cuadrática es una parabola concaba hacia arriba si a &gt; 0 y concaba hacia abajo si a &lt; 0, y su vertice estará ubicado en el punto <img className="imagen" src="/public/vertice.svg" alt="vertice" /> y será simetritrica respecto a la linea vertical <img className="imagen" src="/public/rsimetrica_1.svg" alt="simetrica"  />
+        </p>
 
+        <p className="texto"><div className="item"></div><span className="colorSubtitle">Función Cúbica</span> : La función cúbica es una funcion polinomica de 3<sup>er</sup> grado y tiene la forma <div className="containerImCreciente"><img src="/public/cubica.svg" alt="" /></div></p>
 
-
-
-
-
+        {/* <p className="texto"><div className="item"></div><span className="colorSubtitle"></span> : </p>
+ */}
 
 
 
