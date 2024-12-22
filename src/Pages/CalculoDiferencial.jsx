@@ -25,13 +25,13 @@ const CalculoDiferencial = () => {
             <p className="texto"><span className="colorSubtitle">Prueba de la línea vertical</span>: Una curva en el plano xy representa una función de <img className="imagen" src="/public/x.svg" alt="x" /> si y sólo si toda línea vertical corta a la curva en máximo solo un punto.</p>
          
               <Definiciones definicion={<p className="texto"><span className="colorSubtitle"> Funciones definidas a tramos</span>: Las funciones definidas a tramos también llamadas funciones definidas por partes o seccionalmente
-                definidas, son funciones que tienen formulas diferentes en diferentes partes de su dominio. <br /><img className="imagen" src="/public/impar.svg" alt="fimpar"/> gen" src="/public/x.svg" alt="x"/></p>  }/>
+                definidas, son funciones que tienen formulas diferentes en diferentes partes de su dominio. <br /><div className="containerImagenDef"><img className="imagenCenter" src="/public/partes.svg" alt="atramos"/></div></p>  }/>
            
-        <Definiciones definicion={<p className="texto"><span className="colorSubtitle"> Funciones creciente y decreciente</span>:<br/><b>Funcion creciente</b>: una función es creciente en un intervalo I si
-        <br/><b>Funcion decreciente</b>: una función es creciente en un intervalo I si</p>}/>
+        <Definiciones definicion={<p className="texto"><span className="colorSubtitle"> Funciones creciente y decreciente</span>:<br/><b>Funcion creciente</b>: una función es creciente en un intervalo I si <br/> <div className="containerImCreciente"><img className="imagen" src="/public/creciente.svg" alt="creciente"/></div>
+        <b>Funcion decreciente</b>: una función es creciente en un intervalo I si <br /><div className="containerImCreciente"><img src="/public/decreciente.svg" alt="decreciente"/></div></p>}/>
 
         <Definiciones definicion={<p className="texto"><span className="colorSubtitle">Función par e impar</span> <br /><b>Función par</b>: Si una función cumple que <img className="imagen" src="/public/par.svg" alt="fpar" /> para todo <img className="imagen" src="/public/x.svg" alt="x" /> en su dominio, se dice que es Par. La grafica de una función par
-        es simétrica respecto al eje y. <br/><b>Función Impar</b>: Si una función cumple que <img className="imagen" src="/public/impar.svg" alt="fimpar"/> para todo <img className="imagen" src="/public/x.svg" alt="x"/> en su dominio, se dice que es Impar. La gráfica de una función impar es simétrica respecto a el origen.</p>}/>
+        es simétrica respecto al eje y. <br/><b>Función Impar</b>: i una función cumple que <img className="imagen" src="/public/impar.svg" alt="fimpar"/> para todo <img className="imagen" src="/public/x.svg" alt="x"/> en su dominio, se dice que es Impar. La gráfica de una función impar es simétrica respecto a el origen.</p>}/>
         
 
         

@@ -8,7 +8,6 @@ p{
 }
 .ContainerPrincipal{
     background-color:purple;
-    height: 100vh;
     width: auto;
     margin: 0px 50px;
     display: grid;
@@ -88,5 +87,25 @@ p{
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+  }
+
+  .containerImagenDef{
+    width: 100%;
+    text-align: center;
+  }
+
+  .imagenCenter{
+    padding: 0.5rem 0;
+    width: 35%;
+    min-width: 230px;
+  }
+
+  .containerImCreciente{
+    width: auto;
+    padding: 0.5rem 0;
+  }
+  .containerImCreciente img{
+    width: 60%;
+    min-width: 300px;
   }
   
