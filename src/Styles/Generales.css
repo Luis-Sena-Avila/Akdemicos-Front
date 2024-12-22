@@ -1,0 +1,18 @@
+.definicion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: solid blue 2px;
+    text-align: left;
+    align-content: start;
+}
+.def{
+    background-color: blue;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.texdef{
+    padding: 0.2rem 0.5rem;
+}

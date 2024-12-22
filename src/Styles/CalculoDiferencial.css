@@ -1,5 +1,13 @@
+
+*{
+  padding: 0px;
+}
+p{
+  padding: 0px;
+  margin: 0px;
+}
 .ContainerPrincipal{
-    background-color: aliceblue;
+    background-color:purple;
     height: 100vh;
     width: auto;
     margin: 0px 50px;
@@ -12,8 +20,9 @@
 }
 
 .contenido{
-    background-color: rebeccapurple;
+    background-color: white;
     padding: 1rem;
+    color: black;
 }
 
 .titlePrincipal{
@@ -32,9 +41,52 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     align-self: center;
+    padding: 0px;
 }
 
 .imagen{
-    display: inline-block;
     vertical-align: middle;
+    color: blue;
 }
+
+.colorSubtitle{
+    color: rgb(85, 85, 216);
+}
+
+/* Estilos para el modal */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+  }
+  
+  .modal-content {
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
