@@ -1,25 +1,31 @@
 import "../Styles/CalculoDiferencial.css"
-import React from "react"
+import React, { useRef } from "react"
 import MathExpression from "../components/MathjExpresion"
 import VideoModal from "../components/VideoModal" 
 import Definiciones from "../components/Definiciones"
-
+import CompDropdown from "../components/CompDropdown"
 const CalculoDiferencial = () => {
     
     const videoUrl = "https://www.youtube.com/watch?v=bhUzBX7Ra1c";
+
+    const objeto={capitulo:"Funciones", secciones:["Definiciones","Funciones Basicas"]}
     
+    const referencia1=useRef(null)
+        
     return (
       <div className='ContainerPrincipal'>
           <div className="indice">
-            <h3>Contenido</h3>
-            <ul>
-              <li>Funciones <ul><li>Funciones Básicas</li></ul></li>
-            </ul>
+            <div className="fijo">
+              <h3 className="indiceName">Contenido</h3>
+              <CompDropdown desplegar={objeto}/>  
+            </div>                         
           </div>
 
           <div className="contenido">
             <h2 className="titlePrincipal">Calculo Diferencial</h2>
-            <h3 className="capitulo">1. Funciones</h3>
+            <h3 className="capitulo" onClick={()=>{
+              referencia1.current?.scrollIntoView({behavior:"smooth"})
+            }}>1. Funciones</h3>
 
             <Definiciones definicion={<p className="texto">Una función es una relación en la que a cada elemento <img className="imagen" src="/public/x.svg" alt="x" /> de un conjunto llamado <b>Dominio</b> le corresponde uno y sólo un
             elemento llamado <img className="imagen" src="/public/fx.svg" alt="f(x)" /> de otro conjunto llamado <b>Rango</b>.</p>}/>
@@ -38,7 +44,7 @@ const CalculoDiferencial = () => {
         
         {/* ------------------------------------------seccion funciones basicas-------------------------------------------------------------- */}
 
-        <h2 className="seccion">1.1 Funciones Básicas</h2>
+        <section id="FuncionesBasicas"><h2 className="seccion" ref={referencia1}>1.1 Funciones Básicas</h2></section>
 
         <p className="texto">Las funciones polinomicas tienen la forma <div className="containerImCreciente"><img src="/public/polinomica.svg" alt="polinomica"/></div> donde n ≥ 0, los a<sub>n</sub> son llamados coeficientes del polinomio y n el grado del poliniomio. El dominio de toda función polinómica es 
          <b> ℝ</b>. A continuación se estudiaran las principales funciones polinómicas.</p>

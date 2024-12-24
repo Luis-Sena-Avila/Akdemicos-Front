@@ -1,15 +1,34 @@
 import React from 'react'
 import "../Styles/Header.css"
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [anchoPantalla, setAnchoPantalla] = useState(window.innerWidth);
   const [MostrarCursos, setMostrarCursos] = useState(false)
   const [MostrarMenu, setMostrarMenu] = useState(false)
+  const location = useLocation(); // Obtenemos la ubicación actual de la URL
+  const menuItems = document.querySelectorAll('.amima');
+  useEffect(() => {
+    if (location.pathname.includes('/home')) {
+      menuItems.forEach(i => i.classList.remove('active'));
+      document.getElementById('home').classList.add('active')
+    } else if (location.pathname.includes('/proyectos')) {
+      menuItems.forEach(i => i.classList.remove('active'));
+      document.getElementById('home').classList.add('active')
+    } else if (location.pathname.includes('/cursos')) {
+      menuItems.forEach(i => i.classList.remove('active'));
+      document.getElementById('cursos').classList.add('active')
+    }else{
+      menuItems.forEach(i => i.classList.remove('active'));
+      document.getElementById('home').classList.add('active') 
+    }
+  }, [location]); 
+ 
   const actualizarAnchoVentana = () => {
     setAnchoPantalla(window.innerWidth);
   };
+
 
   useEffect(() => {
     window.addEventListener('resize', actualizarAnchoVentana);
@@ -70,13 +89,9 @@ const Header = () => {
             <div className='menu-barr'><i onClick={mostrarMenu} className='bx bx-menu'></i>
             <div className={MostrarMenu? 'horizontal1':'ocultar-menu'}>
                 <ul className='vertical1'>
+                  <li>Home</li>
                   <li>Proyectos</li>
-                  <li onClick={mostrarCursos}>Cursos  <i className='bx bx-chevron-down'></i></li>
-                  <ul className={MostrarCursos?'lista-cursos ':'lista-cursos mostrar-cursos'}>
-                      <li>Cálculos</li>
-                      <li>Física básica</li>
-                      <li>Física avanzada</li>
-                    </ul>
+                  <li onClick={mostrarCursos}>Cursos</li>
                   <li>Libros</li>
                   <li>Sobre mi</li>
                   <li>Tienda</li>
@@ -86,46 +101,12 @@ const Header = () => {
             
             
             ):(<ul className='menu-horizontal'>
-              <li><a href="">Proyectos</a></li>
-              <li>
-                <Link to={"/cursos"} ><span className='ali'>Cursos  <img src="/Lista.svg" alt="Lista" /></span></Link>
-                {/* <a className='trian-curso' href=""> <span className='ali'>Cursos  <img src="/Lista.svg" alt="Lista" /></span></a> */}
-                <ul className='horizontal'>
-                  <li>
-                    <ul className='vertical'>
-                    <a className='title' href="">Cálculo</a>
-                    <ul className='lista2'>
-                    <a href=""><div className='Itriangulo'></div>Cálculo diferencial</a>
-                      <a href=""><div className='Itriangulo'></div>Cálculo integral</a>
-                      <a href=""><div className='Itriangulo'></div>Cálculo vectorial</a>
-                    </ul>
-                      
-                    </ul>                    
-                  </li>
-
-                  <li>
-                    <ul className='vertical'>
-                      <a className='title' href="">Física básica</a>
-                      <ul className={MostrarCursos?('lista2 mostar-cursos'):('lista2')}>
-                        <a href=""><div className='Itriangulo'></div>Física mecánica</a>
-                        <a href=""><div className='Itriangulo'></div>Física eléctrica</a>
-                        <a href=""><div className='Itriangulo'></div>Física del magnetisto</a>
-                      </ul>
-                      
-                    </ul>                    
-                  </li>
-                  
-                  <li>
-                    <ul>
-                      <a className='title' href=""> Física avanzada</a>
-                    </ul>
-                  
-                  </li>
-                </ul>
-              </li>
-              <li><a href="">Libros</a></li>
-              <li><a href="">Sobre mi</a></li>
-              <li><a href="">Tienda</a></li>
+              <li><Link to={""} ><span className='amima' id='home'>Home</span></Link></li>
+              <li><Link to={""} ><span className='amima' id='proyectos'>Proyectos</span></Link></li>
+              <li><Link to={"/cursos"} ><span className='amima' id='cursos'>Cursos</span></Link></li>              
+              <li><Link to={""} ><span className='amima'>Libros</span></Link></li>
+              <li><Link to={""} ><span className='amima'>Sobre mi</span></Link></li>
+              <li><Link to={""} ><span className='amima'>Tienda</span></Link></li>
             </ul>)}
             
           </nav>

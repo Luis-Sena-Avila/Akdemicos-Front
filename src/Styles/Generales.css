@@ -17,3 +17,51 @@
 .texdef{
     padding: 0.2rem 0.5rem;
 }
+
+.menu{
+    background-color: white !important;
+    color: black !important;
+}
+
+/* ----------------------------------------------Componente dropdown-------------------------------------- */
+.dropdown_link{
+    display: flex;
+    gap: 5px;
+    width: min-content;
+    align-items: center;
+    align-content: center;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.dropcapitulo{
+    height: auto;
+    padding: 0;
+}
+
+.dropdown_sub{
+    display: none;
+}
+.dropdown_sub_mos{
+    display: block;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtema{
+    padding: 0 0 0 40px;
+}
+.dropdown_sub_mos li{
+    list-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lista{
+    transition: transform 0.3s ease;
+}
+.rotar{
+    transform: rotate(90deg);
+}
