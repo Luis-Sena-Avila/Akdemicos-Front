@@ -63,24 +63,7 @@ const Header = () => {
 
   return (
     <header>
-        
-        <div className='conten-principal'>
-          <div className='principal'>
-              <div className='redes'>
-                  <ul>
-                      <li><a href=""></a><i className='bx bxl-facebook'></i></li>
-                      <li><a href=""><i className='bx bxl-instagram'></i></a></li>
-                      <li><a href=""></a><i className='bx bxl-youtube'></i></li>
-                  </ul>
-              </div> 
-              <div className='entrar'>
-                <Link to={"/login"}> {anchoPantalla<350?<div><i className='bx bx-log-in'></i></div>: <div>Acceder a mi cuenta</div> }</Link>
-              </div>
-          </div>
-        </div>
-        
-
-        <div className={  isScrolled ? 'div-secundario scrolled ' : 'div-secundario'}>
+        <div className='div-secundario scrolled '>
         <div className='secundario'>
           <Link to={"/"} ><div className='logo'><img src="/public/Akademicos.svg" alt="Logo" /></div></Link>
         

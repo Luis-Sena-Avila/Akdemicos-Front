@@ -4,7 +4,7 @@ const Definiciones = ({definicion}) => {
     return (
         <div className="definicion">
              <div className="def">Definición</div>
-             <p className="texdef">{definicion}</p>
+             <div className="texdef">{definicion}</div>
         </div>
       );
     };
