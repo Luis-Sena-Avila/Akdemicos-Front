@@ -21,6 +21,7 @@
     text-align: start;
 }
 
+
 label{
     font-size: 1rem;
     color: red;
@@ -67,6 +68,14 @@ input:focus{
     font-family:serif;
 }
 
+.tienes{
+    display: flex;
+    gap: 0.5rem;
+    color: black;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
 .link{
     color:#00A4EF;
     cursor: pointer;
@@ -134,4 +143,5 @@ input:focus{
 .atras-register{
     padding-bottom: 0.4rem;
     font-size: 1.5rem;
+    color: black;
 }

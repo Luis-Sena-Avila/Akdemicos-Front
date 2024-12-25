@@ -1,0 +1,26 @@
+.containerFooter{
+    width: 100%;
+    min-height: 100px;
+    background-color:black;
+    margin-top: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.contenidoFooter{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.contenAka{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.contenRedes{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}

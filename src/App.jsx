@@ -5,6 +5,7 @@ import Login from './Pages/Login'
 import Home from './Pages/Home';
 import Cursos from './Pages/Cursos';
 import CalculoDiferencial from './Pages/CalculoDiferencial';
+import Footer from './Pages/Footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/cursos' element={<Cursos/>}/>
           <Route path='/cursos/CalculoDiferencial' element={<CalculoDiferencial/>}/>
         </Routes>
+      <Footer/>      
     </HashRouter>
   );    
   

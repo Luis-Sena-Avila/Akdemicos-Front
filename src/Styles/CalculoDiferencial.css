@@ -1,15 +1,14 @@
-
 *{
   padding: 0px;
 }
-p{
-  padding: 0px;
-  margin: 0px;
+
+.maxContenedor{
+  width:100%;
 }
 .ContainerPrincipal{
     background-color:purple;
-    width: auto;
-    margin: 0px 50px;
+    width: 100%;
+    padding: 0px 50px;
     display: grid;
     grid-template-columns: 230px auto ;
 }

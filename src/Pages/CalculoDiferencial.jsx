@@ -1,9 +1,9 @@
 import "../Styles/CalculoDiferencial.css"
 import React, { useRef, useState } from "react"
-import MathExpression from "../components/MathjExpresion"
 import VideoModal from "../components/VideoModal" 
 import Definiciones from "../components/Definiciones"
 import CompDropdown from "../components/CompDropdown"
+import Footer from "./Footer"
 const CalculoDiferencial = () => {
     
     const videoUrl = "https://www.youtube.com/watch?v=bhUzBX7Ra1c";
@@ -13,7 +13,8 @@ const CalculoDiferencial = () => {
     const funciones=useRef(null)
         
     return (
-      <div className='ContainerPrincipal'>
+      <div className="maxContenedor">
+        <div className='ContainerPrincipal'>
           <div className="indice">
             <div className="fijo">
               <h3 className="indiceName">Contenido</h3>
@@ -63,9 +64,11 @@ pendiente de de la recta que pasa por dichos puntos viene dada por:<div classNam
         <div className="texto"><div className="item"></div><span className="colorSubtitle">Función Cúbica</span> : La función cúbica es una funcion polinomica de 3<sup>er</sup> grado y tiene la forma <div className="containerImCreciente"><img src="/public/cubica.svg" alt="" /></div></div>
 
        
-          </div>
+        </div>          
       </div>
-
+    </div>
+      
+      
     )
   }
   export default CalculoDiferencial

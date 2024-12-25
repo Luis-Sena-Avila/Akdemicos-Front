@@ -10,9 +10,9 @@ const Header = () => {
   const location = useLocation(); // Obtenemos la ubicación actual de la URL
   const menuItems = document.querySelectorAll('.amima');
   useEffect(() => {
-    if (location.pathname.includes('/home')) {
+    if (location.pathname.includes('/login')) {
       menuItems.forEach(i => i.classList.remove('active'));
-      document.getElementById('home').classList.add('active')
+      document.getElementById('login').classList.add('active')
     } else if (location.pathname.includes('/proyectos')) {
       menuItems.forEach(i => i.classList.remove('active'));
       document.getElementById('home').classList.add('active')
@@ -90,13 +90,12 @@ const Header = () => {
               <li><Link to={""} ><span className='amima'>Libros</span></Link></li>
               <li><Link to={""} ><span className='amima'>Sobre mi</span></Link></li>
               <li><Link to={""} ><span className='amima'>Tienda</span></Link></li>
+              <li><Link to={"/login"} ><span className='amima' id='login'>Login</span></Link></li>
             </ul>)}
             
           </nav>
         </div>
-        </div>
-        
-      
+        </div>            
     </header>
   );
 };

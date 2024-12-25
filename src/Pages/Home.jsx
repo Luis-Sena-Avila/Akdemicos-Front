@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../Styles/Generales.css"
+import "../Styles/Home.css"
 import { Latex } from 'react-latex';
 
 

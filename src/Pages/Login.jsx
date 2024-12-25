@@ -38,7 +38,7 @@ const Login = () => {
             <div className='conten-form-register'>
             <form className='formulario-register' onSubmit={handleSubmit(submit)}>
                     <div className='atras-register'>
-                        <i onClick={handleRegister} className='bx bx-arrow-back'></i>
+                        <i onClick={handleRegister}  className='bx bx-arrow-back'></i>
                     </div>
                 <div className='logo_form'>
                     <img src="/public/Ak.svg" alt="Logo" />
@@ -102,7 +102,7 @@ const Login = () => {
                     <h6 className='link'>¿Olvidaste tu contraseña?</h6>
                     
                     <button className='boton_login' type="submit">Acceder</button>
-                    <h6>¿No tienes cuenta?<span className='link' onClick={handleRegister}> Crea una.</span> </h6>
+                    <div className='tienes'><h6>¿No tienes cuenta?</h6><h6 className='link' onClick={handleRegister}> Crea una.</h6> </div>
                     
                 </form>
                 </div> )}                        
