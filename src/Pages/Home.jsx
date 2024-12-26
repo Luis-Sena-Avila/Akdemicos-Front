@@ -9,19 +9,13 @@ const Home = () => {
     setmostrardrop(!mostrardrop);
   };
   return (
-    <div className='dropdown_list'>
-        <div className="dropdown_link" onClick={toggleMostrar}>
-           <img className={`lista ${mostrardrop ? 'rotar' : ''}`} src="/public/bx-chevron-right.svg" alt="lista" />
-           <span className='dropcapitulo'>Curso</span>
-        </div>
-        <ul className={mostrardrop ? 'dropdown_sub_mos':"dropdown_sub"}>
-          <li className='subtema'>tema 1</li>
-          <li className='subtema'>tema 2</li>
-          <li className='subtema'>tema 3</li>
-          <li className='subtema'>tema 4</li>
-        </ul>
-
-
+    <div className='home'>
+      <div className='containerHome'>
+        <div className='ImagenInicio'><img className='ImagenLogo' src="/public/Ak.svg" alt="Logo" /></div>
+        <span className='textoHome'>Bienvenidos a Akdemicos <br /><h6>"Akdemicos ofrece material académico actualizado 
+          y productos diseñados especialmente para estudiantes. Encuentra todo lo que necesitas para tu educación,
+           desde guías de estudio hasta herramientas útiles para mejorar tu productividad."</h6></span>
+      </div>
     </div>
   );
 }

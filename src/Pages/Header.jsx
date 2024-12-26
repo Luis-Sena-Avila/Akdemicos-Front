@@ -19,7 +19,11 @@ const Header = () => {
     } else if (location.pathname.includes('/cursos')) {
       menuItems.forEach(i => i.classList.remove('active'));
       document.getElementById('cursos').classList.add('active')
-    }else{
+    }else if (location.pathname.includes('/about-me')) {
+      menuItems.forEach(i => i.classList.remove('active'));
+      document.getElementById('about').classList.add('active')
+    }
+    else{
       menuItems.forEach(i => i.classList.remove('active'));
       document.getElementById('home').classList.add('active') 
     }
@@ -80,15 +84,13 @@ const Header = () => {
                   <li>Tienda</li>
                 </ul>
               </div>
-              </div> 
-            
-            
-            ):(<ul className='menu-horizontal'>
+              </div>      
+              ):(<ul className='menu-horizontal'>
               <li><Link to={""} ><span className='amima' id='home'>Home</span></Link></li>
-              <li><Link to={""} ><span className='amima' id='proyectos'>Proyectos</span></Link></li>
+              {/* <li><Link to={""} ><span className='amima' id='proyectos'>Proyectos</span></Link></li> */}
               <li><Link to={"/cursos"} ><span className='amima' id='cursos'>Cursos</span></Link></li>              
               <li><Link to={""} ><span className='amima'>Libros</span></Link></li>
-              <li><Link to={""} ><span className='amima'>Sobre mi</span></Link></li>
+              <li><Link to={"/about-me"} ><span className='amima' id='about'>Sobre mi</span></Link></li>
               <li><Link to={""} ><span className='amima'>Tienda</span></Link></li>
               <li><Link to={"/login"} ><span className='amima' id='login'>Login</span></Link></li>
             </ul>)}

@@ -121,8 +121,6 @@ text-align: end;
     text-align: start;
     height: 100%;
     padding: 5px;
-    box-shadow: rgba(116, 99, 99, 0.35) 0px 5px 15px;
-    border-radius: 10px;
   }
   .logo img{
     height: 100%;

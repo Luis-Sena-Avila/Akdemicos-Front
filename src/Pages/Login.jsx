@@ -46,10 +46,6 @@ const Login = () => {
                 <div className='Registrar'>
                     <h3>Crear una cuenta</h3>
                 </div>
-                
-                
-
-                
                     <div className='register-1'>                  
                     
                         <div className='datos'>
@@ -58,14 +54,11 @@ const Login = () => {
                             message: 'El nombre de usuario debe tener al menos 3 caracteres', }, })} />{errors.userName && <p className='error'>{errors.userName.message}</p>}
                             </div>                
                             <input className='input_register' placeholder='Apellidos' type='text' id='password-input' {...register("lastName")} />
-                        </div>
-                                
+                        </div>                               
                                             
                         <input className='input_register' placeholder='Celular' type="tel" {...register('phone', { required: 'Este campo es requerido', pattern: {
                             value: /^\+(?:[0-9] ?){6,14}[0-9]$/, message: 'Ingresa un número de teléfono válido (formato +xx xxxxxxxxxx )', }, })} />
-                            {errors.phone && <p className='error'>{errors.phone.message}</p>}
-
-                        
+                            {errors.phone && <p className='error'>{errors.phone.message}</p>}                       
                 
                         <input className='input_register' placeholder='Email' type="email" {...register('email', {required: 'Este campo es requerido', pattern: { value: /\S+@\S+\.\S+/,
                             message: 'Ingresa un correo electrónico válido',},})}/>{errors.email && <p className='error'>{errors.email.message}</p>}
@@ -79,10 +72,6 @@ const Login = () => {
                         <button className='boton_login' type="submit">Registrarse</button>
                         
                     </div>                            
-                
-                    
-                         
-
             </form>
             </div>):(
             <div className='conten-form'>

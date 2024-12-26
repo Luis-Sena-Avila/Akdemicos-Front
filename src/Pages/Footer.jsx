@@ -5,9 +5,9 @@ const Footer = () => {
           <div className="contenidoFooter">
               <div className="contenAka"><span>Akdemicos</span><h6>© 2024 Akdemicos, Inc.</h6></div>
               <div className="contenRedes">
-                <a href="" target="_blank"><box-icon type='logo' name='facebook'></box-icon></a>
-                <a href="" target="_blank"><box-icon name='instagram' type='logo' ></box-icon></a>
-                <a href="" target="_blank"><box-icon name='youtube' type='logo' ></box-icon></a>
+                <a href="" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="" target="_blank"><i class='bx bxl-youtube'></i></a>
               </div>
           </div>
       </div>
