@@ -3,11 +3,12 @@ import React, { useRef, useState } from "react"
 import VideoModal from "../components/VideoModal" 
 import Definiciones from "../components/Definiciones"
 import CompDropdown from "../components/CompDropdown"
-import Footer from "./Footer"
+import ListCursos from "../utils/Cursos.json"
 const CalculoDiferencial = () => {
     
     const videoUrl = "https://www.youtube.com/watch?v=bhUzBX7Ra1c";
-
+    
+    
     const objeto={capitulo:"Funciones", secciones:["Definiciones","Funciones Basicas"]}   
     const referencia1=useRef(null)
     const funciones=useRef(null)
@@ -18,7 +19,7 @@ const CalculoDiferencial = () => {
           <div className="indice">
             <div className="fijo">
               <h3 className="indiceName">Contenido</h3>
-              <CompDropdown funciones={funciones} referencia1={referencia1} desplegar={objeto}/>  
+              <CompDropdown funciones={funciones} referencia1={referencia1} desplegar={ListCursos[0].Cursos[0].temas}/>  
             </div>                         
           </div>
 
