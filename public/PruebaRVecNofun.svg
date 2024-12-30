@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.9371mm"
+   height="122.03306mm"
+   viewBox="0 0 139.9371 122.03306"
+   version="1.1"
+   id="svg1"
+   inkscape:export-batch-path="C:\Users\Akdemicos\Desktop\Akemicos\Akdemicos-Front\public"
+   inkscape:export-batch-name="PruebaRVecNofun"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="139.9371"
+       height="122.03307"
+       id="page1"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-18.228628,-58.302032)">
+    <g
+       id="g5">
+      <path
+         style="fill:#040404;stroke:#000000;stroke-width:0.844;stroke-miterlimit:3.7;stroke-dasharray:none;marker-end:url(#ConcaveTriangle)"
+         d="m 20.835937,159.08073 120.054683,0.33073"
+         id="path1" />
+      <path
+         style="fill:#040404;stroke:#000000;stroke-width:0.851022;stroke-miterlimit:3.7;stroke-dasharray:none;marker-end:url(#ConcaveTriangle-1)"
+         d="M 37.308077,180.33478 37.383752,75.491686"
+         id="path1-5" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Bell MT';-inkscape-font-specification:'Bell MT, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.903999;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         x="151.8047"
+         y="161.72656"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Bell MT';-inkscape-font-specification:'Bell MT, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#000000;stroke-width:0.904;stroke-opacity:1"
+           x="151.8047"
+           y="161.72656">x</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Bell MT';-inkscape-font-specification:'Bell MT, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.903999;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         x="36.04948"
+         y="63.5"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="stroke-width:0.904"
+           x="36.04948"
+           y="63.5">y</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.792154;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         d="m 84.982203,171.31835 0.36112,-98.227851"
+         id="path3" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#27259d;stroke-width:0.844;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         d="m 18.520834,131.29948 c 0,0 49.278645,-47.294272 75.406249,-27.1198 26.127597,20.17448 -34.395833,-4.960931 -24.143229,25.46615 10.252604,30.42708 73.421866,-30.75781 73.421866,-30.75781"
+         id="path4" />
+      <ellipse
+         style="fill:#21d13f;fill-opacity:1;stroke:#000000;stroke-width:0.844;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         id="path5"
+         cx="85.280884"
+         cy="99.832977"
+         rx="1.9843749"
+         ry="1.6536459" />
+      <ellipse
+         style="fill:#21d13f;fill-opacity:1;stroke:#000000;stroke-width:0.844;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         id="path5-8"
+         cx="85.107567"
+         cy="113.31404"
+         rx="1.9843749"
+         ry="1.6536459" />
+      <ellipse
+         style="fill:#21d13f;fill-opacity:1;stroke:#000000;stroke-width:0.844;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+         id="path5-9"
+         cx="85.107567"
+         cy="137.80688"
+         rx="1.9843749"
+         ry="1.6536459" />
+    </g>
+  </g>
+</svg>

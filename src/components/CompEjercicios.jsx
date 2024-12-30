@@ -16,7 +16,7 @@ const CompEjercicios = ({ejercicio}) => {
         </div>
 
         <div className="verSolucion" onClick={handleSolution}>
-            Ver solución
+            <img className={verSolution ? 'sinRotar': 'rotarVer'} src="/public/lista.svg" alt="lista" /><span>Ver solución</span>
         </div>
 
         <div className={`solution ${verSolution ? 'mostrarSolution':'ocultarSolution' }`}>

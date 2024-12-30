@@ -3,8 +3,10 @@
    "Cursos":[
         {"nombre":"Calculo Diferencial",
          "temas":[{"nameTema":"Funciones",
-                    "subTema":["Definiciones","Funciones Basicas"]
-                  }],
+                    "subTema":["Definiciones","Funciones basicas"]
+                  },{"nameTema":"La derivada",
+                  "subTema":["Definicion","Derivada de funciones basicas"]
+                }],
          "ImagenUrl":"https://img-c.udemycdn.com/course/240x135/4189168_9704_3.jpg"
         },
         {"nombre":"Calculo Integral",

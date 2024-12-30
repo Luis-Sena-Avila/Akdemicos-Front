@@ -14,9 +14,11 @@
 }
 
 .indice{
-    background-color: aqua;
+    background-color:orange;
     padding: 1rem;
+    width: 100%;
 }
+
 
 .indice ul li {
   list-style: none;
@@ -51,6 +53,13 @@
     text-align: justify;
     align-self: center;
     padding: 0  0 1rem 0;
+    margin: 2.5rem 0;
+}
+.textoDef{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-self: center;
+    padding: 0  0 1rem 0;
 }
 
 .imagen{
@@ -60,10 +69,15 @@
 
 .fconstante{
   padding: 0.5rem 0;
+  text-align: left;
+  align-items: start;
 }
 
 .colorSubtitle{
     color: rgb(85, 85, 216);
+}
+.colorComent{
+  color: red;
 }
 
 /* Estilos para el modal */
@@ -132,15 +146,51 @@
   .indiceName{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 
   .fijo{
-    position: fixed;
+    position:sticky;
     top: 80px;
+    width: 100%;
   }
   .seccion{
     scroll-margin-top: 100px;
   }
   .capitulo{
     scroll-margin-top: 80px;
+  }
+  .subsection{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 0 1rem 0;
+  }
+
+  .containerImaDes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .imagenDef{
+    max-width: 17rem;
+    min-width: 13rem;
+  }
+  .description{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .wrapImagen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: end;
+    justify-content: center;
+    
+  }
+  .contaTextDef{
+    padding: 0.7rem 0;
   }
