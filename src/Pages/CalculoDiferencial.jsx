@@ -217,19 +217,64 @@ const CalculoDiferencial = () => {
           Función potencia con a = 1.
           <div className="fconstante"><img src="/public/identidad.svg" alt="identidad" /></div></div>
 
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Potencia1.svg" alt="potencia1" />
+              </div>
+              <div >
+                  <h4 className="description" >Función potencia de grado 1.</h4>
+              </div>
+            </div>
+
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función Cuadrática</span> : 
           Función potencia con a = 2.
           <div className="fconstante"><img src="/public/cuadratica_1.svg" alt="cuadratica_1" /></div></div>
+
+           <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Potencia2.svg" alt="potencia2" />
+              </div>
+              <div >
+                  <h4 className="description" >Función potencia de grado 2.</h4>
+              </div>
+            </div>
 
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función Cúbica</span> : 
           Función potencia con a = 3.
           <div className="fconstante"><img src="/public/cubica_1.svg" alt="cubica_1" /></div></div>
 
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Potencia3.svg" alt="potencia3" />
+              </div>
+              <div >
+                  <h4 className="description" >Función potencia de grado 3.</h4>
+              </div>
+            </div>
+
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función Potencia de grado 4</span> : 
           <div className="fconstante"><img src="/public/potencia4.svg" alt="cubica_1" /></div></div>
 
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Potencia_4.svg" alt="potencia4" />
+              </div>
+              <div >
+                  <h4 className="description" >Función potencia de grado 4.</h4>
+              </div>
+            </div>
+
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función Potencia de grado 5</span> : 
           <div className="fconstante"><img src="/public/potencia5.svg" alt="cubica_1" /></div></div>
+
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Potencia_5.svg" alt="potencia5" />
+              </div>
+              <div >
+                  <h4 className="description" >Función potencia de grado 5.</h4>
+              </div>
+            </div>
 
           <div className="texto"><span className="colorComent">Comentario</span> : Las gráficas de las funciones potencia 
           de grado par son similares a la de la parábola y = x<sup>2</sup>, mientras que las de las de grado impar (exceptuando la degrado 1) 
@@ -244,22 +289,45 @@ const CalculoDiferencial = () => {
           Es una función potencia con a = 1/2 , su dominio es <img className="imagen" src="/public/domrRcuad.svg" alt="dominioR2" />.
           <div className="fconstante"><img src="/public/Rcuadrada.svg" alt="Rcuadrada" /></div></div>
 
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/raiz2.svg" alt="raiz2" />
+              </div>
+              <div >
+                  <h4 className="description" >Función raíz cuadrada.</h4>
+              </div>
+            </div>
+
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función raíz cúbica</span> :
           Es una función potencia con a = 1/3 , su dominio es <b> ℝ</b>. 
           <div className="fconstante"><img src="/public/Rcubica.svg" alt="Rcubica" /></div></div>
+
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/raiz3.svg" alt="raiz3" />
+              </div>
+              <div >
+                  <h4 className="description" >Función raíz cúbica.</h4>
+              </div>
+            </div>
 
           <div className="texto"><span className="colorComent">Comentario</span> : Las gráficas de las funciones de raices 
           pares son similares a la de <img className="imagen" src="/public/RcuadradaTex.svg" alt="RcuadradaTex" /> y su dominio también es <img className="imagen" src="/public/domrRcuad.svg" alt="dominioRpares" /> , 
           mientras que las de las raices impares se asemejan a la de  <img className="imagen" src="/public/RcubicaTex.svg" alt="RcubicaTex" />.
           </div>
 
-          <div className="texto"><div className="item"></div><span className="colorSubtitle">Función raíz cúbica</span> :
-          Es una función potencia con a = 1/3 , su dominio es <b> ℝ</b>. 
-          <div className="fconstante"><img src="/public/Rcubica.svg" alt="Rcubica" /></div></div>
-
           <div className="texto"><div className="item"></div><span className="colorSubtitle">Función recíproca</span> :
           Es una función potencia con a = -1 , su dominio es <img className="imagen" src="/public/domiReciproc.svg" alt="domiReciproc" />. 
-          <div className="fconstante"><img src="/public/FReciproca.svg" alt="FReciproca" /></div></div>     
+          <div className="fconstante"><img src="/public/FReciproca.svg" alt="FReciproca" /></div></div> 
+
+          <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Reciproca.svg" alt="raiz3" />
+              </div>
+              <div >
+                  <h4 className="description" >Función reciproca.</h4>
+              </div>
+            </div>    
         
 
       
@@ -267,25 +335,68 @@ const CalculoDiferencial = () => {
 
         <div><h3 className="subsection">Función valor absoluto </h3></div>
 
+        <div className="containerImaDes">
+              <div>
+                <img className="imagenDef" src="/public/Vabsoluto.svg" alt="Vabs" />
+              </div>
+              <div >
+                  <h4 className="description" >Función valor absoluto.</h4>
+              </div>
+            </div>
+
 
         <div><h3 className="subsection">Funciones trigonométricas </h3>
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Seno</span> :
                 La función seno es la razón entre la ordenada y la magnitud del vector posición.
                 <div className="fconstante"><img src="/public/seno.svg" alt="seno" /></div>
-                <div className="fconstante"><img src="/public/DomRanseno.svg" alt="omranseno" /></div>
+                <div className="fconstante"><img src="/public/domseno.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Ranseno.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Periodo2pi.svg" alt="domseno" /></div>
+              </div>
+
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/seno_1.svg" alt="seno" />
+                </div>
+                <div >
+                    <h4 className="description" >Función seno.</h4>
+                </div>
               </div>
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Coseno</span> :
                 La función coseno es la razón entre la absisa y la magnitud del vector posición.
                 <div className="fconstante"><img src="/public/coseno.svg" alt="coseno" /></div>
-                <div className="fconstante"><img src="/public/DomRanseno.svg" alt="donCos" /></div>
+                <div className="fconstante"><img src="/public/domseno.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Ranseno.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Periodo2pi.svg" alt="domseno" /></div>
               </div>
+
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/coseno_1.svg" alt="coseno" />
+                </div>
+                <div >
+                    <h4 className="description" >Función coseno.</h4>
+                </div>
+              </div>
+
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Tangente</span> :
                 La función tangente es la razón entre la ordenada y la absisa.
                 <div className="fconstante"><img src="/public/tangente.svg" alt="tan" /></div>
-                <div className="fconstante"><img src="/public/domRantangente.svg" alt="dontan" /></div>
+                <div className="fconstante"><img src="/public/domtangente.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Rantangente.svg" alt="domseno" /></div>
+                <div className="fconstante"><img src="/public/Periodopi.svg" alt="domseno" /></div>
+              </div>
+
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/tangente_1.svg" alt="tangente" />
+                </div>
+                <div >
+                    <h4 className="description" >Función tangente.</h4>
+                </div>
               </div>
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Cosecante</span> :
@@ -296,6 +407,15 @@ const CalculoDiferencial = () => {
                 <div className="fconstante"><img src="/public/periodo2pi.svg" alt="domcsc" /></div>
               </div>
 
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/cosecante_1.svg" alt="cosecante" />
+                </div>
+                <div >
+                    <h4 className="description" >Función cosecante.</h4>
+                </div>
+              </div>
+
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Secante</span> :
                 La función secante es la función reciproca del la función coseno.
                 <div className="fconstante"><img src="/public/secante.svg" alt="sec" /></div>
@@ -304,12 +424,30 @@ const CalculoDiferencial = () => {
                 <div className="fconstante"><img src="/public/periodo2pi.svg" alt="persec" /></div>
               </div>
 
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/secante_1.svg" alt="secante" />
+                </div>
+                <div >
+                    <h4 className="description" >Función secante.</h4>
+                </div>
+              </div>
+
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Cotangente</span> :
                 La función cotangente es la función reciproca del la función tangente.
                 <div className="fconstante"><img src="/public/cotangente.svg" alt="cot" /></div>
                 <div className="fconstante"><img src="/public/domcotangente.svg" alt="domcot" /></div>
                 <div className="fconstante"><img src="/public/Rancotangente.svg" alt="domcot" /></div>
                 <div className="fconstante"><img src="/public/periodopi.svg" alt="percot" /></div>
+              </div>
+
+              <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/cotangente_1.svg" alt="cotangente" />
+                </div>
+                <div >
+                    <h4 className="description" >Función cotangente.</h4>
+                </div>
               </div>
 
 
@@ -322,15 +460,42 @@ const CalculoDiferencial = () => {
               <div className="fconstante"><img src="/public/DomsenoHiperbolico.svg" alt="senoHiperbolico" /></div>
             </div>
 
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/sinh.svg" alt="sinh" />
+                </div>
+                <div >
+                    <h4 className="description" >Función seno hiperbólico.</h4>
+                </div>
+              </div>
+
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Coseno hiperbólico</span> :
               <div className="fconstante"><img src="/public/cosenoHiperbolico.svg" alt="cosenoH" /></div>
               <div className="fconstante"><img src="/public/DomcosenoHiperbolico.svg" alt="cosenoHiperbolico" /></div>      
             </div>
 
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/cosh_1.svg" alt="cosh" />
+                </div>
+                <div >
+                    <h4 className="description" >Función coseno hiperbólico.</h4>
+                </div>
+              </div>
+
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Tangente hiperbólica</span> 
               <div className="fconstante"><img src="/public/TanHiperbolica.svg" alt="tan" /></div>
               <div className="fconstante"><img src="/public/DomTanHiperbolica.svg" alt="dontan" /></div>
             </div>
+
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/tanh.svg" alt="tanh" />
+                </div>
+                <div >
+                    <h4 className="description" >Función tangente hiperbólico.</h4>
+                </div>
+              </div>
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Cosecante hiperbólica</span> 
               <div className="fconstante"><img src="/public/CscHiperbolica.svg" alt="csc" /></div>
@@ -338,16 +503,43 @@ const CalculoDiferencial = () => {
               <div className="fconstante"><img src="/public/RanCscHiperbolica.svg" alt="domcsc" /></div>
             </div>
 
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/csch.svg" alt="csch" />
+                </div>
+                <div >
+                    <h4 className="description" >Función cosecante hiperbólica.</h4>
+                </div>
+              </div>
+
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Secante hiperbólica</span> 
               <div className="fconstante"><img src="/public/SecHiperbolica.svg" alt="sec" /></div>
               <div className="fconstante"><img src="/public/DomSecHiperbolica.svg" alt="domsec" /></div>
             </div>
+
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/sech.svg" alt="sech" />
+                </div>
+                <div >
+                    <h4 className="description" >Función secante hiperbólica.</h4>
+                </div>
+              </div>
 
             <div className="texto"><div className="item"></div><span className="colorSubtitle">Cotangente hiperbólica</span> 
               <div className="fconstante"><img src="/public/CotHiperbolica.svg" alt="cot" /></div>
               <div className="fconstante"><img src="/public/DomCotHiperbolica.svg" alt="domcot" /></div>
               <div className="fconstante"><img src="/public/RanCotHiperbolica.svg" alt="domcot" /></div>
             </div>
+
+            <div className="containerImaDes">
+                <div>
+                  <img className="imagenDef" src="/public/coth.svg" alt="coth" />
+                </div>
+                <div >
+                    <h4 className="description" >Función cotangente hiperbólica.</h4>
+                </div>
+              </div>
           
           
           </div> 
