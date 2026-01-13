@@ -1,0 +1,83 @@
+.containerTemas{
+    background-color:white;
+    min-height: calc(100vh - 170px);
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nombreCurso{
+    background-color: white;
+}
+
+.nombreCurso h1{
+    font-size: 3rem;
+}
+
+.listaTemas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+.listaTemas li{
+    width: 200px;
+    padding: 1rem;
+    background-color:rgb(237, 233, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.listaTemas li:hover {
+  background-color: #1e90ff; /* color de fondo */
+  color: white;              /* color del texto */
+}
+
+.todos{
+    background-color: aliceblue;
+}
+
+.todos h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: white;
+}
+
+.listadeCursos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color:white;
+    list-style: none;
+    padding: 1rem;
+}
+
+.listadeCursos li{
+    width: max-content;
+    padding: 1rem;
+    background-color:rgb(237, 233, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.listadeCursos li:hover {
+  background-color: #1e90ff; /* color de fondo */
+  color: white;              /* color del texto */
+}

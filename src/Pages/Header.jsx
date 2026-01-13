@@ -37,12 +37,12 @@ const Header = () => {
           <nav>
             <ul className='menu-horizontal'>
               <li><Link to={"/"} ><span className='amima' id='home'>Home</span></Link></li>
-              <li><Link to={"/proyectos"} ><span className='amima' id='proyectos'>Proyectos</span></Link></li>
-              <li><Link to={"/cursos"} ><span className='amima' id='cursos'>Cursos</span></Link></li>              
+              <li><Link to={"/Proyectos"} ><span className='amima' id='proyectos'>Proyectos</span></Link></li>
+              <li><Link to={"/Cursos"} ><span className='amima' id='cursos'>Cursos</span></Link></li>              
               {/* <li><Link to={""} ><span   className='amima'>Libros</span></Link></li> */}
-              <li><Link to={"/about-me"} ><span className='amima' id='about'>Sobre mi</span></Link></li>
+              <li><Link to={"/About-me"} ><span className='amima' id='about'>Sobre mi</span></Link></li>
               {/*<li><Link to={""} ><span className='amima'>Tienda</span></Link></li>*/}
-              <li><Link to={"/login"} ><span className='amima' id='login'>Login</span></Link></li>
+              <li><Link to={"/Login"} ><span className='amima' id='login'>Login</span></Link></li>
             </ul>
           </nav>
         </div>
